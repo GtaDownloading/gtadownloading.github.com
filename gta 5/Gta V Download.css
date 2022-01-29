@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2? family = Rowdies: wght @ 700 & display = swap');
+  .container-form {
+      
+      
+      padding: none;
+      position: absolute;
+      right: 0%;
+      background-color: white;
+      border-radius: 90px;
+  
+  }
+  
+  #search {
+    
+    font-family: 'Rowdies', cursive;
+    width: 140px;
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: BLACK;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+  
+  }
+  
+  
+  .container-form button{
+  
+  border:none;
+  background-color: transparent;
+  outline:none; 
+  
+  }
+  
+  .dws-menu *{
+  
+  padding-right: 50%;
+  margin:0;
+  padding: 0;
+  
+  
+  }
+  
+  #menu{
+  
+    font-family: 'Rowdies', cursive;
+    padding-right: 50%;
+    margin-left: 0%;
+  
+  }
+  
+  .dws-menu ul ,
+  .dws-menu ol {
+  
+    list-style: none;
+  
+  }
+  
+  .dws-menu > ul {
+  
+  
+  display: flex;
+  
+  
+  }
+  
+  .dws-menu > ul li a{
+  
+    
+  display: block;
+  background-color: #242323 ;
+  opacity: 0,1;
+  padding: 15px 38px 15px 48px ;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0,3s ease ;
+  
+  
+  }
+  
+  .dws-menu > ul li {
+  
+    
+    position: relative;
+    
+  }
+  
+  .dws-menu li a:hover{
+  
+    background: white;
+    color: black;
+    box-shadow: 1px 5px 10px -5px white;
+    transition: all 0,3s ease ;
+  
+  }
+  
+  .dws-menu li ul{
+  
+  position: absolute;
+  min-width: 150px;
+  display: none;
+  
+  }
+  
+  .dws-menu li>ul li{
+  
+  border: 1px solid rgb(31, 30, 30);
+  
+  }
+  
+  .dws-menu li>ul li a{
+  
+    padding: 10px;
+    text-transform: none;
+    background: #242323;
+  
+  }
+  
+  .dws-menu li>ul li ul{
+  
+  position: absolute;
+  right: -150px;
+  top: 0;
+  
+  }
+  
+  .dws-menu li:hover > ul{
+  
+  display:block;
+  
+  }
+
+.Logo {
+
+display: block;
+margin: auto;
+width: 16%;
+height: 16%;
+}
+.ccd {
+  height: 95px;
+  overflow: hidden;
+  width: 60%;
+  margin:0 auto;
+  position: relative;
+}
+
+a.ddott {
+  margin:0 auto;
+  display: block;
+  line-height: 50px;
+  height: 50px;
+  width: 24%;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 100px 0 #FFF,1px 76px 10px #000;
+  color: #FFF;
+  background: #5D8EC7;
+  border-right: 2px solid #FFF;
+  border-left: 2px solid #FFF;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+}
+a.ddott:hover {
+  text-shadow: 0 50px 0 #FFF, 1px 51px 20px #FFF;
+  margin-top: -50px;
+  height: 100px;
+  background: #222;
+}
+h4{
+color: #ffff;
+}h3{
+  color: #ffff;
+  }
+  body{
+      font-family:Arial, sans-serif;
+    }
+  }
